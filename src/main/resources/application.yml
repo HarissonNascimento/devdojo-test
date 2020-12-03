@@ -1,0 +1,21 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: bank-transactions
+  jpa:
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+  jmx:
+    enabled: false
+  datasource:
+    url: jdbc:h2:mem:db_banktransactions
+    username: root
+    password: root
+    driverClassName: org.h2.Driver
+
+
+

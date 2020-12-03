@@ -1,0 +1,12 @@
+version: '2.4'
+
+services:
+  devdojo-test:
+    container_name: devdojo-test
+    image: harissonnascimento/devdojo-test
+    ports:
+    - "8080:8080"
+    mem_limit: 512m
+
+volumes:
+  devdojo-test:

@@ -1,17 +1,17 @@
 <img src="https://img.shields.io/github/workflow/status/HarissonNascimento/devdojo-test/devdojo-test%20CI" alt="Project Workflow Badge"/>
 
 ## 💬O que há neste documento
-* [Missão do projeto]()
-* [Mapeamento]()
-* [Dados para autenticação]()
-* [Executando o projeto com Docker]()
-* [Executando o projeto localmente]()
-* [Endpoints dispoiveis]()
+* [Missão do projeto](https://github.com/HarissonNascimento/devdojo-test#missão-do-projeto)
+* [Mapeamento](https://github.com/HarissonNascimento/devdojo-test#mapeamento)
+* [Dados para autenticação](https://github.com/HarissonNascimento/devdojo-test#dados-para-autenticação)
+* [Executando o projeto com Docker](https://github.com/HarissonNascimento/devdojo-test#executando-o-projeto-com-docker)
+* [Executando o projeto localmente](https://github.com/HarissonNascimento/devdojo-test#executando-o-projeto-localmente)
+* [Endpoints dispoiveis](https://github.com/HarissonNascimento/devdojo-test#endpoints-dispoiveis)
 
 ## 🔨Missão do projeto
 Dentro de 48 horas desenvolver um endpoint que retorne uma lista de transações bancárias mapeando o json para os campos descritos na [tabela abaixo](https://github.com/HarissonNascimento/devdojo-test#mapeamento) (coluna Mapeamento no DevDojo).
 
-A requisição deverá ser feita para /transactions/{accountId} e o endpoint deverá retornar o conteúdo do arquivo [transactions.json]() mapeado para os campos
+A requisição deverá ser feita para /transactions/{accountId} e o endpoint deverá retornar o conteúdo do arquivo [transactions.json](https://github.com/HarissonNascimento/devdojo-test/blob/main/src/main/resources/json/transactions.json) mapeado para os campos
 
 Observação
 
